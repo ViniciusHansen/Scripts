@@ -1,3 +1,7 @@
-# para tornar o arquivo executavel utilize o seguinte comando no terminal:
+# deb_installApps.sh works in debian based linux distros
 
-- chmod +x instalarApps.sh
+- run 'chmod +x deb_installApps.sh' to make it executable by terminal, then run './deb_installApps.sh'.
+
+# win_installApps.ps1
+
+- just open it by click and should work.
