@@ -1,11 +1,11 @@
-# deb_installApps.sh
+## Debian-based Linux distros
 
-### debian based linux distros
+### deb_installApps.sh
 
 - run 'chmod +x deb_installApps.sh' to make it executable by terminal, then run './deb_installApps.sh'.
 
-# win_installApps.ps1
+## Windows 10
 
-### Windows 10
+### win_installApps.ps1
 
-- just open it by click and should work.
+- just run it by click and should work.
