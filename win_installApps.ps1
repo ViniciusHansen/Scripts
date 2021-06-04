@@ -12,4 +12,4 @@ winget install --id=Microsoft.WindowsTerminal -e  ;
 winget install --id=PuTTY.PuTTY -e ; 
 winget install --id=7zip.7zip -e ;
 winget install --id=Git.Git -e  ; 
-winget install --id=VMware.WorkstationPlayer -e 
+winget install --id=VMware.WorkstationPlayer -e ;
