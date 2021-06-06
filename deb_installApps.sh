@@ -21,6 +21,3 @@ sudo apt install brave-browser
 
 #update
 sudo apt update && sudo apt upgrade -y
-
-#DE
-sudo apt install ubuntu-unity-desktop -y
