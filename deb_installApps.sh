@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+#Layout Teclado
+setxkbmap -model abnt2 -layout br
+
+#update
+sudo apt update && sudo apt upgrade -y
+
 #Flatpak Install
 sudo add-apt-repository ppa:alexlarsson/flatpak  -y
 sudo apt install flatpak -y
@@ -18,6 +24,3 @@ sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://b
 echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
 sudo apt update
 sudo apt install brave-browser
-
-#update
-sudo apt update && sudo apt upgrade -y
