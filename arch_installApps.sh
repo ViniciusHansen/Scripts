@@ -7,16 +7,13 @@ setxkbmap -model abnt2 -layout br
 sudo pacman -Syu
 
 #Flatpak Install
-sudo pacman -S flatpak
+sudo pacman -S flatpak -y
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak update 
 
-#Mouse Double Click fix
-sudo pacman -S libinput -y
-
 #Apps Install
-sudo pacman -S brave -y
-sudo pacman -S vscode -y
-sudo pacman -S gimp -y
-flatpak install flathub com.spotify.Client -y
-flatpak install flathub com.visualstudio.code -y
+sudo pacman -S libinput -y    #Mouse Double Click fix
+sudo pacman -S brave -y       #Browser
+sudo pacman -S gimp -y        #Image editing
+sudo pacman -S code -y        #code
+flatpak install flathub com.spotify.Client -y   #music
