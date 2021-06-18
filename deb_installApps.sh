@@ -13,10 +13,17 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 flatpak update 
 
 #Apps Install
+curl -s https://install.speedtest.net/app/cli/install.deb.sh | sudo bash
+sudo apt install neofetch -y
+sudo apt install htop -y
+sudo apt install git -y
+sudo apt install speedtest -y
 flatpak install flathub com.discordapp.Discord -y
 flatpak install flathub com.spotify.Client -y
 flatpak install flathub org.gimp.GIMP -y
 flatpak install flathub com.visualstudio.code -y
+
+
 
 #brave browser
 sudo apt install apt-transport-https curl
