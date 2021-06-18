@@ -23,8 +23,6 @@ flatpak install flathub com.spotify.Client -y
 flatpak install flathub org.gimp.GIMP -y
 flatpak install flathub com.visualstudio.code -y
 
-
-
 #brave browser
 sudo apt install apt-transport-https curl
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
