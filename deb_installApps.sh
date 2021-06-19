@@ -19,7 +19,7 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=
 sudo apt update
 sudo apt install brave-browser -y
 curl -s https://install.speedtest.net/app/cli/install.deb.sh | sudo bash
-sudo apt install speedtest -y
+sudo apt install speedtest-cli -y
 sudo apt install neofetch -y
 sudo apt install htop -y
 sudo apt install git -y
