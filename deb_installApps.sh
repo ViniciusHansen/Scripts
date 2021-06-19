@@ -18,6 +18,7 @@ sudo apt install neofetch -y
 sudo apt install htop -y
 sudo apt install git -y
 sudo apt install speedtest -y
+sudo apt install libreoffice -y
 flatpak install flathub com.discordapp.Discord -y
 flatpak install flathub com.spotify.Client -y
 flatpak install flathub org.gimp.GIMP -y
