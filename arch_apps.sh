@@ -8,3 +8,4 @@ sudo pacman -S libinput chromium firefox gimp libreoffice code thunderbird disco
 
 sudo pacman -Scc
 
+yay -S spotify
