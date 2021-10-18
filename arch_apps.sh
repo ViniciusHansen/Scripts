@@ -20,5 +20,10 @@ yay -Syu
 sudo pacman -S libinput chromium gimp libreoffice code thunderbird discord steam git htop neofetch python3-pip docker docker-compose bpytop ffmpeg base-devel vim obs-studio kdenlive noto-fonts-emoji nodejs okular radeontop peek mpv
 yay -S spotify
 
+# LibreGaming (https://github.com/Ahmed-Al-Balochi/LibreGaming)
+pip3 install LibreGaming
+libregaming --tui
+
+
 #clear pacman cache
 sudo pacman -Scc
