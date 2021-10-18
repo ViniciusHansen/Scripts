@@ -2,10 +2,23 @@
 
 setxkbmap -model abnt2 -layout br
 
+# add multilib to pacman.conf
+sed -i "/\[multilib\]/,/Include/"'s/^#//' /etc/pacman.conf
+
+# update pacman
 sudo pacman -Syu
 
-sudo pacman -S libinput chromium firefox gimp libreoffice code thunderbird discord steam git htop neofetch python-pip docker docker-compose bpytop ffmpeg base-devel vim obs-studio kdenlive noto-fonts-emoji nodejs okular radeontop peek mpv
+# install yay (AUR helper)
+cd /opt
+sudo git clone https://aur.archlinux.org/yay-git.git
+sudo chown -R tecmint:tecmint ./yay-git
+cd yay-git
+makepkg -si
+yay -Syu
 
-sudo pacman -Scc
-
+# main programs
+sudo pacman -S libinput chromium gimp libreoffice code thunderbird discord steam git htop neofetch python3-pip docker docker-compose bpytop ffmpeg base-devel vim obs-studio kdenlive noto-fonts-emoji nodejs okular radeontop peek mpv
 yay -S spotify
+
+#clear pacman cache
+sudo pacman -Scc
