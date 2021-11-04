@@ -17,7 +17,7 @@ makepkg -si
 yay -Syu
 
 # main programs
-sudo pacman -S libinput chromium gimp libreoffice code thunderbird discord steam git htop neofetch python3-pip docker docker-compose bpytop ffmpeg base-devel vim obs-studio kdenlive noto-fonts-emoji nodejs okular gwenview radeontop peek mpv
+sudo pacman -S libinput chromium gimp libreoffice code thunderbird discord steam git htop neofetch python3-pip docker docker-compose bpytop ffmpeg base-devel vim obs-studio kdenlive noto-fonts-emoji nodejs okular gwenview radeontop peek mpv ncdu
 yay -S spotify
 
 # LibreGaming (https://github.com/Ahmed-Al-Balochi/LibreGaming)
