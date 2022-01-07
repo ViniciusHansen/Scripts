@@ -1,4 +1,6 @@
 #!/bin/bash
+# image upscale & blur black bars
+# dependencies: imagemagic (pacman -S magick)
 
 resolution='1920x1080'
 
