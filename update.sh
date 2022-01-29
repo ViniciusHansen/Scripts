@@ -1,9 +1,4 @@
-#     _             _       _   _           _       _
-#    / \   _ __ ___| |__   | | | |_ __   __| | __ _| |_ ___
-#   / _ \ | '__/ __| '_ \  | | | | '_ \ / _` |/ _` | __/ _ \
-#  / ___ \| | | (__| | | | | |_| | |_) | (_| | (_| | ||  __/
-# /_/   \_\_|  \___|_| |_|  \___/| .__/ \__,_|\__,_|\__\___|
-#                                |_|
+#!/bin/bash
 # Basically a script to update arch packages, clear orphan packages and cache
 # Made by github.com/ViniciusHansen
 
